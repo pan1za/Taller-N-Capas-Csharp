@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "CapaPresentacion/1.0.0": {
+        "dependencies": {
+          "CapaDatos": "1.0.0",
+          "CapaNegocios": "1.0.0"
+        },
+        "runtime": {
+          "CapaPresentacion.dll": {}
+        }
+      },
+      "CapaDatos/1.0.0": {
+        "runtime": {
+          "CapaDatos.dll": {}
+        }
+      },
+      "CapaNegocios/1.0.0": {
+        "dependencies": {
+          "CapaDatos": "1.0.0"
+        },
+        "runtime": {
+          "CapaNegocios.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CapaPresentacion/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CapaDatos/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CapaNegocios/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
